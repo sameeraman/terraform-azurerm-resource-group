@@ -1,4 +1,4 @@
-# Terraform Module for Azure Resource Group
+# Terraform Module for Azure Resource Groups
 This module can be used to create a Resource Group in Azure. It automatically add the `CreatedOn` tag to the resource group. 
 
 
@@ -19,3 +19,7 @@ module "rg4" {
   tags       = { CostCentre = "1001", Owner = "John Smith" }
 }
 ```
+
+## Output 
+Output will be below
+![](images/rg1.png)
